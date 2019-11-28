@@ -1,12 +1,9 @@
-const addTodo = (text) => {
+const requestTodoList = () => {
   return {
-    type: 'ADD_TODO',
-    payload: {
-      text
-    }
+    'type': 'TODO_LIST_REQUEST'
   }
 }
 
 export {
-  addTodo
+  requestTodoList
 }
